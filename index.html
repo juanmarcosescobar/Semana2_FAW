@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Laboratorio #2</title>
+</head>
+<body>
+    <div class="exercise" id="exercise1">
+        <h1>Ejercicio #1</h1>
+        <label for="base">Número 1:</label>
+        <input type="number" id="base">
+        <label for="exponente">Número 2:</label>
+        <input type="number" id="exponente">
+        <button onclick="calcularPotencia()">Calcular Potencia</button>
+        <h3 id="resultado1"></h3>
+    </div>
+
+    <div class="exercise" id="exercise2">
+        <h1>Ejercicio #2</h1>
+        <label for="gradosC">Grados Celsius:</label>
+        <input type="number" id="gradosC">
+        <button onclick="convertirFarenheit()">Convertir a Farenheit</button>
+        <h3 id="resultado2"></h3>
+    </div>
+
+    <div class="exercise" id="exercise3">
+        <h1>Ejercicio #3</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <button onclick="agregarNombre()">Agregar Nombre</button>
+        <label for="numLetras">Número de Letras:</label>
+        <input type="number" id="numLetras">
+        <button onclick="filtrarNombres()">Filtrar Nombres</button>
+        <ul id="listaNombres"></ul>
+        <ul id="listaFiltrada"></ul>
+    </div>
+
+    <div class="exercise" id="exercise4">
+        <h1>Ejercicio #4</h1>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento">
+        <button onclick="calcularEdad()">Calcular Edad</button>
+        <h3 id="resultado4"></h3>
+    </div>
+
+    <div class="exercise" id="exercise5">
+        <h1>Ejercicio #5</h1>
+        <label for="hilera">Hilera:</label>
+        <input type="text" id="hilera">
+        <button onclick="contarPalabras()">Contar Palabras</button>
+        <h3 id="resultado5"></h3>
+    </div>
+</body>
+</html>
